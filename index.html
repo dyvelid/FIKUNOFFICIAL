@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FINAL PROJECT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>FILKOM</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-purple">Team</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-purple">About</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-purple">Price</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-purple">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">WebUs <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block w3-hover-purple">
+      <a href="#" class="w3-bar-item w3-button">Dylan Daud</a>
+      <a href="#" class="w3-bar-item w3-button">Gilbert Gara</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">About</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="header.jpg" alt="boat" style="width:100%;min-height:530px;max-height:600px;">
+<div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>OUR TEAM</h2>
+<p>CHUAKXZ</p>
+<div class="w3-row"><br>
+<div class="w3-quarter">
+  <a href="https://instagram.com/dyvelid?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img src="4.jpeg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity" ></a>
+  <h3>Dylan Daud</h3>
+  <p>@dyvelid</p>
+</div>
+<div class="w3-quarter">
+  <a href="https://instagram.com/_jillmarcellino?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="1.jpeg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity"></a>
+  <h3>Gilbert Gara</h3>
+  <p>@_jillmarcellino21</p>
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Unklab</h2>
+<p>Universitas Klabat adalah pusat pendidikan tinggi yang didirikan oleh Gereja Masehi Advent Hari Ketujuh untuk menyediakan mahasiswa bagi pelayanan di Indonesia dan tempat lainnya.<br />
+Tugas istimewa universitas ini adalah untuk menyediakan mahasiswa berpartisipasi pada misi unik gereja kepada dunia, berpikir mandiri, kreatif dan analitis dalam konteks budaya, norma dan kebijakan pendidikan nasional. <br /> Memperoleh identitas pribadi dalam mengembangkan suatu pandangan kristiani, belajar menghargai pandangan dan budaya ini. Lembaga pendidikan ini menerima mahasiswa yang mengerti dan menerima misi universitas.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="2.jpeg" alt="Snow" style="width:100%">
+  <div class="w3-container">
+  <h5>Latar Belakang</h5>
+  <h2>FILKOM</h2>
+  <p>Fakultas Ilmu Komputer Universitas Klabat (FILKOM UNKLAB) ini keberadaannya sangat diperlukan oleh masyarakat baik pada masa kini maupun pada masa yang
+  akan datang. Pengembangan ilmu komputer ini sangat diperlukan seiring dengan pengembangan kondisi masyarakat dan pemerintah.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="3.jpg" alt="Lights" style="width:100%" height="307px">
+  <div class="w3-container">
+  <h5>Program Studi</h5>
+  <h2>Informatika</h2>
+  <p>Lulusan Informatika Universitas Klabat memiliki tiga Profil Lulusan (PL) yaitu Game Development and Graphic Design Animation (GD2A), Competitive Intelligence Analysis (CIA) dan Web / Mobile Developer (WMD)</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="5.jpg" alt="Mountains" style="width:100%" height="307">
+  <div class="w3-container">
+  <h5>Program Studi</h5>
+  <h2>Sistem Informasi</h2>
+  <p>Lulusan program studi Sistem Informasi Universitas Klabat memiliki tiga profil lulusan, yaitu Perintis Bisnis Berbasis IT 
+  (Technopreneur/Entrepreneur) atau Startup Digital, IT Project Manager, dan Digital Marketing Manager. Berikut penjelasan dari profil lulusan program studi Sistem Informasi, Universitas Klabat
+</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>VISI, MISI, dan TUJUAN</h2>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">VISI</p>
+        </li>
+        <li class="w3-padding-16">Menjadi fakultas ilmu komputer yang unggul dan terkemuka  di Indonesia  Timur dalam penyelenggaraan Pendidikan, 
+		Penelitian dan Pengabdian Masyarakat dalam bidang penguasaan teknologi informasi dan sistem informasi yang berlandaskan keimanan yang kuat
+		kepada Tuhan sehingga menciptakan tenaga kerja yang cerdas, kreatif, jujur, disiplin, bertanggungjawab dan takut akan Tuhan.</li>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">MISI</p>
+        </li>
+        <li class="w3-padding-16">Mengembangkan dan meningkatkan kualitas dosen, mahasiswa maupun lulusannya dalam penelitian dasar dan aplikasinya yang<br />
+		mendukung pengembangan teknologi informasi  dan sistem informasi dalam meningkatkan kesejahteraan umat manusia, dengan cara melaksanakan
+		tri darma perguruan tinggi.</li>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">TUJUAN</p>
+        </li>
+        <li class="w3-padding-16">Mempunyai jiwa melayani</li>
+        <li class="w3-padding-16">Memiliki pengetahuan dan ketrampilan dalam bidang teknologi komputer</li>
+		<li class="w3-padding-16">Mampu bekerjasama dengan dalam sebuah tim kerja</li>
+		<li class="w3-padding-16">Mempunyai jiwa wirausaha dan bekerja mandiri</li>
+		<li class="w3-padding-16">Dapat menyesuaikan diri dengan perkembangan teknologi komputer</li>
+		<li class="w3-padding-16">Mempunyai perilaku disiplin, jujur, bertanggungjawab dan integritas iman yang kuat.</li>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3> 
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Jl. Arnold Mononutu, Airmadidi, Minahasa Utara,<br />     Sulawesi Utara, Indonesia</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +62431  891035</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  info@unklab.ac.id</p><br />
+	  <img src="6.png" class="w3-image w3-greyscale-min" style="width:100%;">
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="7.png" class="w3-image w3-greyscale-min" style="width:100%;">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/profile.php?id=100082571173139" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://twitter.com/unklabofficial" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.youtube.com/c/UnklabMedia" title="Youtube"><i class="fa fa-youtube"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.instagram.com/unklabofficial/" title="Instagram"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="https://www.linkedin.com/school/universitasklabat/mycompany/" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Click for <a href="https://www.unklab.ac.id/fakultas-ilmu-komputer/" target="_blank">More Info</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
